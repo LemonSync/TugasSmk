@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-radius: 10px;
+            width: 60%;
+            border-collapse: collapse;
+            text-align: center;
+            box-shadow: 
+                4px 4px 10px rgb(200, 200, 200),
+                -4px 4px 10px rgb(200, 200, 200)
+        }
+        tr, td, th {
+            border: 1px solid rgb(238, 238, 238);
+            padding: 10px;
+        }
+        th {
+            background-color: rgb(0, 174, 255);
+            color: white;
+        }
+
+        .leftBorder {
+            border-top-left-radius: 10px;
+        }
+
+        .rightBorder {
+            border-top-right-radius: 10px;
+        }
+
+        .bottomLeft {
+            border-bottom-left-radius: 10px;
+        }
+
+        .bottomRight {
+            border-bottom-right-radius: 10px;
+        }
+
+        .abuAbu {
+            background-color: rgb(238, 238, 238);
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h2>Tabel Nilai Siswa</h2>
+    <table>
+        <tr>
+            <th class="leftBorder">Nama</th>
+            <th>Kelas</th>
+            <th class="rightBorder">Nilai</th>
+        </tr>
+        <tr class="abuAbu">
+            <td>Andi</td>
+            <td>XI RPL</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>XI TKJ</td>
+            <td>85</td>
+        </tr>
+        <tr class="abuAbu">
+            <td>Citra</td>
+            <td>XI MM</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td class="bottomLeft">Dewi</td>
+            <td>XI RPL</td>
+            <td class="bottomRight">88</td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
